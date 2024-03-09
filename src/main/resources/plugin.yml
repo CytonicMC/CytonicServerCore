@@ -1,0 +1,18 @@
+name: CytonicServerCore
+version: '${project.version}'
+main: net.cytonic.cytonicservercore.CytonicServerCore
+api-version: '1.20'
+authors:
+  - Foxikle
+load: POSTWORLD
+description: 'The core plugin responsible for server level operations within CytonicMC'
+prefix: 'ServerCore'
+website: https://cytonic.net
+commands:
+  shutdowninstance:
+    description: Shuts down this secific server instance
+    permission: cytonic.servercore.shutdown
+    usage: /shutdown
+    aliases:
+      - stop
+database: false
